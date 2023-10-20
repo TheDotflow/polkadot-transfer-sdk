@@ -1,0 +1,26 @@
+{
+  "name": "polkadot-transfer-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.23.2",
+    "@polkadot/api": "^10.10.1",
+    "@polkadot/util-crypto": "^12.5.1",
+    "axios": "^1.5.1",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.23.2",
+    "@types/jest": "^29.5.6",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
